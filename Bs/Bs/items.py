@@ -9,14 +9,12 @@ import scrapy
 
 
 class BsItem(scrapy.Item):
-    # 自如类型（合租、整租...）
-    id = scrapy.Field()
     # 标题
     title = scrapy.Field()
     # 链接
     link = scrapy.Field()
     # 时间
     issueTime = scrapy.Field()
-    type = scrapy.Field()
-    stage = scrapy.Field()
+    # 时间
+    detail = scrapy.Field()
     pass
