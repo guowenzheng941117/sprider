@@ -17,4 +17,3 @@ class BsItem(scrapy.Item):
     issueTime = scrapy.Field()
     # 时间
     detail = scrapy.Field()
-    pass
